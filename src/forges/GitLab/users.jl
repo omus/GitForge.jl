@@ -11,7 +11,7 @@ end
     state::String
     avatar_url::String
     web_url::String
-    created_at::DateTime
+    created_at::String  # DateTime
     is_admin::Bool
     bio::String
     location::String
@@ -21,13 +21,13 @@ end
     twitter::String
     website_url::String
     organization::String
-    last_sign_in_at::DateTime
-    confirmed_at::DateTime
+    last_sign_in_at::String  # DateTime
+    confirmed_at::String  # DateTime
     theme_id::Int
     last_activity_on::Date
     color_scheme_id::Int
     projects_limit::Int
-    current_sign_in_at::DateTime
+    current_sign_in_at::String  # DateTime
     identities::Vector{Identity}
     can_create_group::Bool
     can_create_project::Bool

@@ -5,7 +5,7 @@
     state::String
     avatar_url::String
     web_url::String
-    expires_at::DateTime
+    expires_at::String  # DateTime
     access_level::Int
 end
 

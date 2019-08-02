@@ -5,8 +5,8 @@
     title::String
     description::String
     state::String
-    created_at::DateTime
-    updated_at::DateTime
+    created_at::String  # DateTime
+    updated_at::String  # DateTime
     due_date::Date
     start_date::Date
     web_url::String
@@ -40,8 +40,8 @@ end
     title::String
     description::String
     state::String
-    created_at::DateTime
-    updated_at::DateTime
+    created_at::String  # DateTime
+    updated_at::String  # DateTime
     target_branch::String
     source_branch::String
     upvotes::Int
@@ -70,12 +70,12 @@ end
     subscribed::Bool
     changes_count::String
     merged_by::User
-    merged_at::DateTime
+    merged_at::String  # DateTime
     closed_by::User
-    closed_at::DateTime
-    latest_build_started_at::DateTime
-    latest_build_finished_at::DateTime
-    first_deployed_to_production_at::DateTime
+    closed_at::String  # DateTime
+    latest_build_started_at::String  # DateTime
+    latest_build_finished_at::String  # DateTime
+    first_deployed_to_production_at::String  # DateTime
     pipeline::Pipeline
     diff_refs::DiffRefs
 end

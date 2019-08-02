@@ -6,10 +6,10 @@
     author_email::String
     committer_name::String
     committer_email::String
-    created_at::DateTime
+    created_at::String
     message::String
-    committed_date::DateTime
-    authored_date::DateTime
+    committed_date::String
+    authored_date::String
     parent_ids::Vector{String}
     last_pipeline::Pipeline
     status::String
